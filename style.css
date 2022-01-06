@@ -1,0 +1,256 @@
+body{
+    font-family: 'Yeseva One', cursive;
+    margin: 0;
+}
+
+p, .btn{
+    font-family: sans-serif;
+}
+
+
+.container{
+    display: flex;
+    margin: 25px 20px 30px 20px;
+}
+
+.twin{
+    width: 50%;
+}
+
+.twin img{
+    width: 60%;
+    padding-left: 75px;
+}
+
+.intro-text{
+    padding: 0 70px;
+    text-align: left;
+}
+.intro-text h1{
+    font-size: 3rem;
+    border-left: 4px solid salmon;
+    padding-left: 10px;
+}
+
+.intro-text p{
+    margin: 20px 0 25px 0;
+    padding-right: 50px;
+    line-height: 1.5;
+}
+
+.intro-last{
+    margin: 25px 0;
+}
+.color-text{
+    color: orange;
+}
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange ,#f94144);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+/*  Mission Vision Goal section starts here */
+
+.mission-steps{
+    margin: 20px 0 30px 0;
+}
+.mission-steps h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cardHolder{
+    display: flex;
+    margin: 40px 60px 40px 60px;
+}
+
+.card{
+    width: 33%;
+margin-left: 30px;
+}
+
+.card img{
+    margin-top: 30px;
+    width: 25%;
+    padding-left: 15px;
+}
+.card p{
+    margin: 20px 0;
+    padding-right: 50px;
+    line-height: 1.5;
+    padding-left: 25px;
+    padding-bottom: 40px;
+
+}
+
+.card h3{
+    color: orange;
+    padding-left: 25px;
+    
+}
+
+.blue{
+    background-color: #edf5f6;
+    border-radius: 10px;
+}
+
+.pink{
+    background-color: #ffeeee;
+    border-radius: 10px;
+}
+
+.cream{
+    background-color: #fff4d6;
+    border-radius: 10px;
+}
+
+/* Expalanation section starts here */
+
+.explanation{
+    margin: 70px 0;
+    padding-bottom: 50px;
+}
+
+.exp-first, .exp-second {
+    display: flex;
+}
+
+.exp-first{
+    margin: 50px 0;
+}
+
+.first-second h2{
+    text-align: left;
+    padding: 20px 0;
+}
+
+.first-second p{
+     line-height: 1.5;
+     padding-bottom: 15px;
+}
+
+.first-first {
+    flex: 1 .8 0;
+
+}
+
+.exp-second {
+ margin-top: 70px;
+}
+
+.first-second {
+    flex: 1 1.2 0;
+    padding-right: 120px;
+}
+
+.first-first img{
+    width: 50%;
+    padding-left: 100px;
+}
+
+.sec-first{
+    flex: 1 1.2 0;
+    padding-left: 120px;
+}
+
+.sec-first h2{
+    text-align: left;
+    padding: 20px 0;
+  
+}
+
+.sec-first p{
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.sec-second{
+    flex: 1 .8 0;
+    padding-right: 120px;
+}
+
+.sec-second img{
+    margin-top: 30px;
+    width: 60%;
+    padding-left: 200px;
+}
+
+/*  Contact section here */
+
+.contact{
+    margin-bottom: 50px;
+}
+.contact h2{
+    text-align: center;
+}
+
+.contact-info{
+   margin: 30px 150px 30px 150px;
+} 
+
+.label{
+    color: orange;
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.required{
+    color: red;
+}
+
+input{
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 2px solid orange;
+    padding-bottom: 20px;
+
+}
+input:hover{
+    border: 2px solid hsla(29, 95%, 50%, 0.938);
+}
+
+.name, .email, .message{
+    margin-left: 250px;
+    padding: 10px 0;
+}
+
+
+
+#contactBtn{
+    margin-left:525px;
+    margin-bottom: 40px;
+}
+
+/*  footer section  */
+
+footer{
+    margin-top: 20px;
+    background-color: #252422;
+    color: white;
+    height: 110px;
+}
+
+.colorRed{
+    color: rgb(153, 10, 10);
+}
+
+
+footer h2{
+    text-align: center;
+    padding-top: 30px;
+    font-style: oblique;
+    font-family: 'Sofia', cursive;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: small;
+}
